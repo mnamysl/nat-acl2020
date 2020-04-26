@@ -1,0 +1,1 @@
+from .nat_sequence_tagger_model import NATSequenceTagger
