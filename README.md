@@ -1,6 +1,6 @@
 # Noise-Aware Training (NAT)
 
-This repository contains the code and the data that can be used to reproduce the experiments described in the "**NAT: Noise-Aware Training for Robust Neural Sequence Labeling**" paper, which was accepted to be presented the [ACL 2020](https://acl2020.org/) conference. 
+This repository contains the code and the data that can be used to reproduce the experiments described in the "**NAT: Noise-Aware Training for Robust Neural Sequence Labeling**" paper, which was accepted to be presented at the [ACL 2020](https://acl2020.org/) conference. 
 
 ## Background
 
