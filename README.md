@@ -141,7 +141,7 @@ python3 main.py --mode eval --corpus conll03_en --model my_trained_model --cmx_f
 
 ## Authors
 
-* Marcin Namysl
+* Marcin Namysl [dblp](https://dblp.uni-trier.de/pers/hd/n/Namysl:Marcin), [orcid](https://orcid.org/0000-0001-7066-1726)
 
 ## License
 
