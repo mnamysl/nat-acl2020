@@ -1,6 +1,6 @@
 # Noise-Aware Training (NAT)
 
-This repository contains the code and the data that can be used to reproduce the experiments described in the "**NAT: Noise-Aware Training for Robust Neural Sequence Labeling**" paper, which was accepted to be presented at the [ACL 2020](https://acl2020.org/) conference. 
+This repository contains the code and the data that can be used to reproduce the experiments described in the "**[NAT: Noise-Aware Training for Robust Neural Sequence Labeling](https://arxiv.org/abs/2005.07162)**" paper, which was accepted to be presented at the [ACL 2020](https://acl2020.org/) conference. 
 
 ## Background
 
@@ -20,10 +20,10 @@ NAT was implemented as an extension to the [FLAR](https://github.com/zalandorese
 │   ├── trainers
 │   └── visual
 ├── resources
-|   ├── cmx
-|   ├── taggers
+│   ├── cmx
+│   ├── taggers
 │   ├── tasks
-|   └── typos
+│   └── typos
 └── robust_ner
 ```
 
@@ -137,6 +137,22 @@ Finally, the prepared model can be evaluated on the real OCR erros by using the 
 
 ```
 python3 main.py --mode eval --corpus conll03_en --model my_trained_model --cmx_file tesseract3-RS
+```
+
+## Citing NAT
+Please cite our paper when using the code:
+```
+@misc{namysl2020nat,
+    title={{NAT}: Noise-Aware Training for Robust Neural Sequence Labeling},
+    author={Marcin Namysl and Sven Behnke and Joachim K{\"{o}}hler},
+    year={2020},    
+    primaryClass={cs.CL},
+    journal={CoRR},
+    volume={abs/2005.07162},
+    eprint={2005.07162},
+    archivePrefix={arXiv},
+    url={https://arxiv.org/abs/2005.07162},
+}
 ```
 
 ## Authors
