@@ -1,6 +1,6 @@
 # Noise-Aware Training (NAT)
 
-This repository contains the code and the data that can be used to reproduce the experiments described in the "**[NAT: Noise-Aware Training for Robust Neural Sequence Labeling](https://arxiv.org/abs/2005.07162)**" paper, which was accepted to be presented at the [ACL 2020](https://acl2020.org/) conference. 
+This repository contains the code and the data that can be used to reproduce the experiments described in the "**[NAT: Noise-Aware Training for Robust Neural Sequence Labeling](https://www.aclweb.org/anthology/2020.acl-main.138/)**" paper, which was accepted to be presented at the [ACL 2020](https://acl2020.org/) conference. 
 
 ## Background
 
@@ -47,8 +47,11 @@ The [resources](./resources) directory includes the data files. [Confusion matri
 git clone https://github.com/mnamysl/nat-acl2020
 ```
 
-2. Download the FLAIR framework (v0.4.2) from: https://github.com/zalandoresearch/flair/releases/tag/v0.4.2
-3. Rename the extracted *flair-0.4.2* to *flair* and move it to the *NAT* directory. 
+2. Extract "*flair.tgz*" to the NAT directory: 
+
+```
+tar -xzvf flair.tgz
+```
 
 ### Getting the data
 
@@ -142,16 +145,16 @@ python3 main.py --mode eval --corpus conll03_en --model my_trained_model --cmx_f
 ## Citing NAT
 Please cite our paper when using the code:
 ```
-@misc{namysl2020nat,
-    title={{NAT}: Noise-Aware Training for Robust Neural Sequence Labeling},
-    author={Marcin Namysl and Sven Behnke and Joachim K{\"{o}}hler},
-    year={2020},    
-    primaryClass={cs.CL},
-    journal={CoRR},
-    volume={abs/2005.07162},
-    eprint={2005.07162},
-    archivePrefix={arXiv},
-    url={https://arxiv.org/abs/2005.07162},
+@inproceedings{namysl-etal-2020-nat,
+    title = "{NAT}: Noise-Aware Training for Robust Neural Sequence Labeling",
+    author = {Namysl, Marcin and Behnke, Sven and K{\"o}hler, Joachim},
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.138",
+    pages = "1501--1517",
 }
 ```
 
