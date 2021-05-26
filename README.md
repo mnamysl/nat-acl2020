@@ -1,3 +1,7 @@
+**Please see [NATv2](https://github.com/mnamysl/nat-acl2021), an improved version of the original NAT framework.**
+
+---
+
 # Noise-Aware Training (NAT)
 
 This repository contains the code and the data that can be used to reproduce the experiments described in the "**[NAT: Noise-Aware Training for Robust Neural Sequence Labeling](https://www.aclweb.org/anthology/2020.acl-main.138/)**" paper, which was accepted to be presented at the [ACL 2020](https://acl2020.org/) conference. 
